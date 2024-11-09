@@ -32,3 +32,4 @@ first_name = name[0:4].capitalize()
 last_character = name[-1]
 print(last_character)
 print(first_name)
+
