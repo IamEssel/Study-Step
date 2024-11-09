@@ -14,7 +14,7 @@ print(capitals.keys())
 
 
 for key,value in capitals.items():#loop through the list for key,value pairs
-    print(key,",",value)
+    print(key,value)
 
 capitals.update({'Germany':'Berlin'})#older dictionary values can also be updated
 capitals.pop('India')#give the key, it removes the value associated with it as well
