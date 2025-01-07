@@ -3,13 +3,13 @@ import math, cmath
 
 # taking coefficients
 
-a = int(input("Enter coefficient of x-squared: "))
+a = float(input("Enter coefficient of x-squared: "))
 while a == 0:
     print("Coefficient of x-squared must not be 0!")
-    a = int(input("Enter coefficient of x-squared: "))
+    a = float(input("Enter coefficient of x-squared: "))
 # the while loop above is to ensure that the value of a is never 0
-b = int(input("Enter coefficient of x: "))
-c = int(input("Enter constant: "))
+b = float(input("Enter coefficient of x: "))
+c = float(input("Enter constant: "))
 
 #calculation and display of discriminant
 discriminant = pow(b,2)-4*a*c
